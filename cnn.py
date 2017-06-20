@@ -257,7 +257,7 @@ class YOLO_TF:
 	else : intersection =  tb*lr
 	return intersection / (box1[2]*box1[3] + box2[2]*box2[3] - intersection)
 
-    def training(self): #TODO add training function!
+    def training(self): 
 	return None
 
     
